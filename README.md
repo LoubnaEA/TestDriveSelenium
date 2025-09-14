@@ -3,8 +3,7 @@ TestDriveSelenium is focused on test automation with **Selenium**. The main goal
 
 ---
 
-## Key Highlights
-This project demonstrates :  
+## Key Highlights  
 - Writing **automated UI tests** using Selenium WebDriver   
 - Applying the **DDT** (Data-Driven Testing) approach  
 - Organizing tests with the **POM** (Page Object Model) for maintainability  

@@ -1,0 +1,26 @@
+**TestDriveSelenium/**
+- README.md
+- 📂 docs/
+    - TestPlan.md
+    - Workflows.md
+    - Guidelines.md
+    - Architecture.md
+- 📂 scripts/
+    - SF_Opportunity_Create.robot
+    - SF_Opportunity_MultiPersona.robot
+    - resources/
+        - keywords/
+            - gherkin/
+                - SF_Opportunity_Gherkin.robot
+            - business/
+                - SF_Opportunity_Business.robot
+        - data/
+            - opportunity_data.csv
+            - config.yaml
+- 📂 examples/
+    - sample_test_log.txt
+    - sample_report.html
+- 📂 reports/
+    - last_execution_log.txt
+    - last_execution_report.html
+      

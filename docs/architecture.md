@@ -10,7 +10,7 @@ The result is an automation suite that is clean, extensible, aligned with profes
 ### 🟦 Core Principles
 **Strict separation of concerns** across layers (Tests, pages, locators, data, config, tools).  
 **High maintainability** through modular design and predictable structure.  
-**Page Object Model (POM) discipline**: single responsibility, centralized selectors, reusable actions.  
+**Page Object Model (POM) discipline** : single responsibility, centralized selectors, reusable actions.  
 **Framework‑agnostic design** enabling integration with Pytest or Robot Framework.  
 **Data‑driven execution (DDT)** with externalized datasets.  
 **Robustness and consistency** via explicit waits, defensive actions, clean logging.  

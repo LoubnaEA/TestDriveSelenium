@@ -5,7 +5,7 @@ The workflows are inspired by generic Salesforce CRM behaviour, focusing on main
 
 ---
 
-### 🟦 In Scope
+### 🟪 In Scope
 - **Login workflows**
 - **Navigation to Opportunity module**
 - **Opportunity creation and field validation**  
@@ -18,8 +18,7 @@ The workflows are inspired by generic Salesforce CRM behaviour, focusing on main
 - End-to-end Salesforce implementation  
 - Backend validations
 
-
-### 🟦 Data-Driven Approach (DDT)
+### 🟪 Data-Driven Approach (DDT)
 Test inputs are stored in external files and consumed dynamically by Robot Framework.    
 - **Data sources** :  
   `resources/data/opportunity_data.csv`  
@@ -29,8 +28,7 @@ Test inputs are stored in external files and consumed dynamically by Robot Frame
   - Easy maintenance and scaling   
   - Supports multi-persona scenarios  
 
-
-### 🟦 Test Strategy
+### 🟪 Test Strategy
 - **Keyword-driven structure** using reusable business and Gherkin-style keywords  
 - **Page Object Model (POM)** principles applied to keyword organization  
 - **CSV-driven loops** for multiple Opportunity test rows  
@@ -39,14 +37,12 @@ Test inputs are stored in external files and consumed dynamically by Robot Frame
   - Keywords → *resources/keywords/*  
   - Data → *resources/data/*  
 
-
-### 🟦 Environment
+### 🟪 Environment
 **Browser** : Chrome (latest stable)  
 **Tools** : Robot Framework, Selenium WebDriver  
 **Execution command** : robot scripts/SF_Opportunity_Create.robot  
 
-
-### 🟦 Risks & Assumptions
+### 🟪 Risks & Assumptions
 - **Risks** :
   - UI changes may break locators
   - Slow page loads may impact stability
@@ -55,8 +51,7 @@ Test inputs are stored in external files and consumed dynamically by Robot Frame
   - Stable internet connection
   - WebDriver installed
 
-
-### 🟦 References
+### 🟪 References
 - **Selenium WebDriver Documentation**, official reference for browser automation :  
   [https://www.selenium.dev/documentation/](https://www.selenium.dev/documentation/)  
 - **Robot Framework User Guide**, official guide for syntax, keywords, data-driven testing :   
@@ -68,5 +63,4 @@ Test inputs are stored in external files and consumed dynamically by Robot Frame
 - **Related Repositories**, internal references demonstrating connected processes :
   - [DeploymentPlaybook](https://github.com/LoubnaEA/DeploymentPlaybook) - Deployment & verification procedures
   - [TestTrekker](https://github.com/LoubnaEA/TestTrekker) - Test plans & workflows
-
 

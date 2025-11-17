@@ -114,7 +114,7 @@ Logs and artifacts are mandatory.
 CI pipelines must be reproducible.    
 
 
-### Technical Roadmap
+### Roadmap
 1. Implement WebDriver wrapper 
 2. Define fixture architecture 
 3. Build primary Page Objects (login, home, search)  

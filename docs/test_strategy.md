@@ -5,18 +5,18 @@ It describes scope, objectives, testing levels, environments, data strategy, rep
 
 ---
 
-### In scope
+### 🟦 In scope
 * UI automated regression tests  
 * Smoke & critical path UI tests  
 * Data-driven validation (DDT)    
 * Cross-browser validation (Chrome, Firefox)  
 
-### Out of scope
+**Out of scope**
 * Performance testing (load/stress)  
 * Security and penetration tests  
 * Manual exploratory testing  
 
-### Testing Approach
+### 🟦 Testing Approach
 
 **1. Test Levels**
 * **Smoke tests** : Validate app availability and main flows
@@ -36,14 +36,14 @@ It describes scope, objectives, testing levels, environments, data strategy, rep
 * **Validation of UI state & transitions**
 
 
-### Test Data Strategy
-
+### 🟦 Test Data Strategy
 * Externalized datasets (`/data/`)
 * No hardcoded values in tests
 * Dynamic builders for generated data
 * Secure handling of credentials via environment variables  
 
-### Environments
+
+### 🟦 Environments
 **DEV** : unstable, used for early feedback
 **QA** : stable environment for automated tests
 **STAGING** : pre‑production validation
@@ -54,7 +54,7 @@ Environment selection via CLI :
 pytest --env=qa
 ```
 
-### Execution Model
+### 🟦 Execution Model
 
 **1. Local**
 * Interactive mode (headed)  
@@ -67,20 +67,20 @@ pytest --env=qa
 * Artifacts collected: logs, screenshots, videos (optional)  
 
 
-### Tooling & Framework
+### 🟦 Tooling & Framework
 * **Selenium WebDriver**  
 * **Pytest** (fixtures, markers, hooks)  
 * **Allure** (optional) for reporting  
 * Custom wrapper for robust Selenium actions  
 
 
-### Reporting
+### 🟦 Reporting
 * Pytest HTML or Allure reports
 * Logs & screenshots for every failure
 * Trend analysis over time (CI dashboards)
 
 
-### Risks & Mitigations
+### 🟦 Risks & Mitigations
 
 | Risk                    | Mitigation                                |
 | ----------------------- | ----------------------------------------- |
@@ -89,15 +89,14 @@ pytest --env=qa
 | Environment instability | Health checks, monitoring                 |
 
 
-
-### Quality Gates  
+### 🟦 Quality Gates  
 100% tests must pass in `qa` before merge.  
 Smoke suite must run on every commit.  
 No flaky tests allowed.  
 Code reviews mandatory for POM, fixtures, tools.  
 
 
-### Roadmap  
+### 🟦 Roadmap  
 1. Define test fixtures architecture  
 2. Implement screenshot & logging framework  
 3. Add Allure reporting integration  

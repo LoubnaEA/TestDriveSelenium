@@ -5,27 +5,27 @@ Focused on UI test automation with **Selenium WebDriver**, applying **DDT** by s
 ---
 
 ## At a Glance
-- **UI Automation with Selenium WebDriver**
+**UI Automation with Selenium WebDriver**
   - Clear separation between pages, actions and tests  
   - Behavior-oriented test scripts  
   - Scalable and maintainable folder structure  
 
-- **Data-Driven Testing (DDT)**
+**Data-Driven Testing (DDT)**
   - Test logic isolated from test data  
   - Externalized inputs (CSV / JSON / Python dictionaries)  
   - Flexible scenario variations  
 
-- **Page Object Model (POM)**
+**Page Object Model (POM)**
   - Centralized locators  
   - Reusable page actions  
   - Consistent naming and design conventions  
 
-- **Python Ecosystem**
+**Python Ecosystem**
   - Selenium WebDriver  
   - Pytest  
   - Robot Framework (complementary keyword layer)
 
-- **CRM-style Workflows**
+**CRM-style Workflows**
   - Generic patterns inspired by **Salesforce** : authentication, navigation, case management  
 
 
@@ -46,6 +46,14 @@ Focused on UI test automation with **Selenium WebDriver**, applying **DDT** by s
 ├─ 📁 reports/ → Execution logs and result reports (traceability)   
 └─ README.md 
 
+**Files Structure Color-Coded** :    
+🟦 **Architecture & Strategy**   
+High-level design, layers, framework, roadmap    
+🟩 **Operational Guidelines**    
+POM & DDT best practices, naming, logging, maintainability    
+🟪 **Concrete Test Plans & Exercises**    
+Actual test plans, workflows, scripts, and test data    
+ 
 
 ## 🔗 Related Repositories
 ```yaml

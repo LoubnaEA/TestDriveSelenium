@@ -7,7 +7,7 @@ The result is an automation suite that is clean, extensible, aligned with profes
 
 ---
 
-### Core Principles
+### 🟦 Core Principles
 **Strict separation of concerns** across layers (Tests, pages, locators, data, config, tools).  
 **High maintainability** through modular design and predictable structure.  
 **Page Object Model (POM) discipline**: single responsibility, centralized selectors, reusable actions.  
@@ -16,7 +16,7 @@ The result is an automation suite that is clean, extensible, aligned with profes
 **Robustness and consistency** via explicit waits, defensive actions, clean logging.  
 
 
-### High-Level Architecture (6 tightly scoped layers)
+### 🟦 High-Level Architecture (6 tightly scoped layers)
 
 **1. TEST Layer (pytest-based)**  
 Located in `tests/` 
@@ -60,7 +60,7 @@ Located in `data/`
   * Completely separated from logic and tests  
 
 
-### Selenium Architecture
+### 🟦 Selenium Architecture
 
 **1. WebDriver Wrapper**  
 Objectives : Centralize Selenium interactions, normalize error handling, improve maintainability   
@@ -78,7 +78,7 @@ Expected capabilities :
 * Designed to withstand UI response variability  
 
 
-### Test Execution Model
+### 🟦 Test Execution Model
 
 **1. Local Execution**
 * `pytest -m ui --env=qa --headed`
@@ -95,7 +95,7 @@ Expected capabilities :
 * `@pytest.mark.regression`  
 
 
-### Extensibility Model
+### 🟦 Extensibility Model
 The architecture supports effortless addition of :
 * new test modules  
 * new pages and components  
@@ -104,7 +104,7 @@ The architecture supports effortless addition of :
 * customized synchronization rules  
 
 
-### Quality Gates  
+### 🟦 Quality Gates  
 Actions fully encapsulated within page objects.    
 No business logic in test files.    
 Stable, centralized locators.    
@@ -114,7 +114,7 @@ Logs and artifacts are mandatory.
 CI pipelines must be reproducible.    
 
 
-### Roadmap
+### 🟦 Roadmap
 1. Implement WebDriver wrapper 
 2. Define fixture architecture 
 3. Build primary Page Objects (login, home, search)  

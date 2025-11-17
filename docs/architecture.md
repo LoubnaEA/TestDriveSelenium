@@ -104,7 +104,7 @@ The architecture supports effortless addition of :
 * customized synchronization rules  
 
 
-### Quality Gates & Best Practices
+### Quality Gates  
 Actions fully encapsulated within page objects.    
 No business logic in test files.    
 Stable, centralized locators.    

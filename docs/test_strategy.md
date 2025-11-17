@@ -1,6 +1,6 @@
 # Test Strategy
 
-This **Test Strategy** defines the overall QA approach for the `TestDriveSelenium` automation suite.   
+This **Test Strategy** defines the overall QA approach for the **`TestDriveSelenium`** automation suite.   
 It describes scope, objectives, testing levels, environments, data strategy, reporting, quality gates to ensure reliable and maintainable UI automation.
 
 ---
@@ -44,15 +44,12 @@ It describes scope, objectives, testing levels, environments, data strategy, rep
 
 
 ### 🟦 Environments
-**DEV** : unstable, used for early feedback
-**QA** : stable environment for automated tests
-**STAGING** : pre‑production validation
+**DEV** : unstable, used for early feedback  
+**QA** : stable environment for automated tests  
+**STAGING** : pre‑production validation  
 
-Environment selection via CLI :
+Environment selection via CLI : pytest --env=qa  
 
-```
-pytest --env=qa
-```
 
 ### 🟦 Execution Model
 

@@ -51,8 +51,8 @@ Focused on UI test automation with **Selenium WebDriver**, applying **DDT** by s
 High-level design, layers, framework, roadmap    
 🟩 **Operational Guidelines**    
 POM & DDT best practices, naming, logging, maintainability    
-🟪 **Concrete Test Plans & Exercises**    
-Actual test plans, workflows, scripts, and test data    
+🟪 **Concrete Test Plans**    
+Actual test plans, workflows, scripts, test data    
  
 
 ## 🔗 Related Repositories
